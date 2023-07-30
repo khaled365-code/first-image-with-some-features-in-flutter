@@ -1,16 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:iti/home_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+void main()
+{
+  runApp(MyApp());
+
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget
+{
   @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
+  Widget build(BuildContext context)
+  {
+
+
+   return MaterialApp(
+
+     home:Homescreen()
+
+
+   );
+
   }
+
 }
+
+
 
